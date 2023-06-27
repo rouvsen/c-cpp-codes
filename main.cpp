@@ -27,7 +27,6 @@ int main() {
     printf("Azərbaycan");
 
     // system("COLOR 1"); - color 1 is blue, 2/3/4/5/6/7/8/9 and A/B/C/D/E/F different colors. you can write color like lower case - no problem (COLOR or color).
-    
 
     return 0;
 }

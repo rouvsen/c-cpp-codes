@@ -15,6 +15,8 @@
     stdio.h --> standard input output, for instance: printf function for 'output', and scanf function for 'input'
     stdlib.h --> Text to number, Number to text - you can, also generate random values
     time.h --> Time and Date operations for.
+
+    windows.h --> you can change 'color of code' (library), (output color). It is just for Windows OS
 */
 
 int main() {
@@ -23,6 +25,9 @@ int main() {
     
     printf("Hello\n");
     printf("Azərbaycan");
+
+    // system("COLOR 1"); - color 1 is blue, 2/3/4/5/6/7/8/9 and A/B/C/D/E/F different colors. you can write color like lower case - no problem (COLOR or color).
+    
 
     return 0;
 }

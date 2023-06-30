@@ -35,6 +35,10 @@ int main() {
     scanf(" %c", character);
     // If you want to declare a character, don't forget to leave a space.
 
+    int a = 5;
+    a++;
+    ++a;
+
     int five = 5;
     int six = 6;
     printf("five: %d, six: %d, five + six = %d", five, six, five + six);

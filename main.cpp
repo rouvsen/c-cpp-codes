@@ -28,5 +28,18 @@ int main() {
 
     // system("COLOR 1"); - color 1 is blue, 2/3/4/5/6/7/8/9 and A/B/C/D/E/F different colors. you can write color like lower case - no problem (COLOR or color).
 
+    int num1 = 5;
+    
+    printf("%d", num1); //%d for integer
+
+    double num2 = 2; //Ram 8byte
+    printf("%f", num2); //%f for float, double, 2.00000
+    printf("%.2f", num2); //%f for float, double, 2.00
+    printf("%.1f", num2); //%f for float, double, 2.0
+    float num3;  //Ram 4byte
+
+    char character = 'r';
+    printf("%c", character); //%c for char
+
     return 0;
 }

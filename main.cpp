@@ -27,12 +27,13 @@ int main() {
     int numm, nummm;
     char character;
     
+    //you should use & ampersand when you wanna get value from Client
     printf("Enter the first num: ");
-    scanf("%d", numm);
+    scanf("%d", &numm);
     printf("Enter the second num: ");
-    scanf("%d", nummm);
+    scanf("%d", &nummm);
     printf("Enter the character: ");
-    scanf(" %c", character);
+    scanf(" %c", &character);
     // If you want to declare a character, don't forget to leave a space.
 
     int a = 5;

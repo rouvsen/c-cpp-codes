@@ -39,6 +39,8 @@ int main() {
     a++;
     ++a;
 
+    // -> \n, \t, \a - warning! with the voice or visible warning, \\, \"
+
     int five = 5;
     int six = 6;
     printf("five: %d, six: %d, five + six = %d", five, six, five + six);

@@ -22,6 +22,22 @@
 int main() {
     
     setlocale(LC_ALL, "Turkish"); //set turkish dictionary
+
+    //show on the console entered numbers
+    int numm, nummm;
+    char character;
+    
+    printf("Enter the first num: ");
+    scanf("%d", numm);
+    printf("Enter the second num: ");
+    scanf("%d", nummm);
+    printf("Enter the character: ");
+    scanf(" %c", character);
+    // If you want to declare a character, don't forget to leave a space.
+
+    int five = 5;
+    int six = 6;
+    printf("five: %d, six: %d, five + six = %d", five, six, five + six);
     
     printf("Hello\n");
     printf("Azərbaycan");

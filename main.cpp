@@ -15,6 +15,7 @@
     stdio.h --> standard input output, for instance: printf function for 'output', and scanf function for 'input'
     stdlib.h --> Text to number, Number to text - you can, also generate random values
     time.h --> Time and Date operations for.
+    conio.h --> getch();
 
     windows.h --> you can change 'color of code' (library), (output color). It is just for Windows OS
 */

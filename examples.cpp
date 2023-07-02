@@ -14,19 +14,33 @@
 //Note: \a is alarm, you can use is it in f.e if(x == 1) printf("\a\n Hello");
 
 //How we can use --> 'art:' 'goto art;' <-- this feature is like while loop (in java)
+
+void findMiddles(int x1, int x2) {
+    while (x1+1 < x2)
+    {
+        printf("%d\n", x1+1);
+        x1++;
+    }
+    
+}
+
 int main() {
 
-    int num;
-    here:
-    printf("please, Enter number that be bigger than 0.. num: ");
-    scanf("%d", &num);
+    findMiddles(10,15);
 
-    if(num > 0) {
-        printf("\nGood Job! you entered: %d", num);
-    } else {
-        printf("\nFailed! you entered: %d, please try again and enter a valid number\n", num);
-        goto here;
-    }
+    // int num;
+    // here:
+    // printf("please, Enter number that be bigger than 0.. num: ");
+    // scanf("%d", &num);
+
+    // if(num > 0) {
+    //     printf("\nGood Job! you entered: %d", num);
+    // } else {
+    //     printf("\nFailed! you entered: %d, please try again and enter a valid number\n", num);
+    //     goto here;
+    // }
 
     return 0;
 }
+
+// lf --> double type, f --> float type
